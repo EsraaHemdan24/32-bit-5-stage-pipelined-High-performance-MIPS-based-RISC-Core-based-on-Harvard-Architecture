@@ -5,7 +5,7 @@ output wire [31:0] ReadDataM
 );
 
 integer i;
-reg [31:0] ROM [63:0];
+  reg [31:0] ROM [0:63];
 
 always @( posedge CLK or negedge rst )
 begin
